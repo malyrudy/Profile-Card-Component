@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 1rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    font-size: 18px;
+    background: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 43vw bottom 50vh, left 47vw top 50vh;
+}
+
+.container {
+    max-width: 420px;
+    border-radius: 1rem;
+    position: relative;
+    background: white;
+    margin: 0 auto;
+}
+
+.image-bg img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 6.5rem;
+}
+
+.about-info {
+    margin-top: 60px;
+}
+
+.about-info .name {
+    font-weight: 600;
+    color: hsl(227, 10%, 46%);
+}
+
+.about-info .name span {
+    font-weight: 400;
+    margin-left: 0.3rem;
+    color: rgba(0, 0, 0, 40%);
+    font-size: 1.2rem;
+}
+
+.about-info p:last-child {
+    margin: 0.5rem 0 1.5rem 0;
+    color: rgba(0, 0, 0, 40%);
+    font-size: 0.9rem;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid hsl(0, 0%, 85%);
+    padding: 1.2rem 0 1.2rem 0;
+}
+
+.numbers .big-numbers {
+    font-weight: 700;
+}
+
+.numbers .description {
+    color: rgba(0, 0, 0, 40%);
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    letter-spacing: 0.1rem;
+}
